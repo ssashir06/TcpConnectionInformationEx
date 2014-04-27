@@ -2,7 +2,16 @@ TcpConnectionInformationEx
 ==========================
 
 P/Invoke of GetExtendedTcpTable.
-MSDN: http://msdn.microsoft.com/en-us/library/windows/desktop/aa365928(v=vs.85).asxp
+This project provides an imprementation of TcpConnectionInfomation.
 
-Thank you, pinvoke.net!
-http://www.pinvoke.net/default.aspx/iphlpapi/GetExtendedTcpTable.html
+
+Reference
+----
+* TcpConnectionInfomation
+  * http://msdn.microsoft.com/library/system.net.networkinformation.tcpconnectioninformation(v=vs.110).aspx
+
+* GetExtendedTcpTable
+  * http://msdn.microsoft.com/en-us/library/windows/desktop/aa365928(v=vs.85).asxp
+
+* Thank you, pinvoke.net!
+  * http://www.pinvoke.net/default.aspx/iphlpapi/GetExtendedTcpTable.html
