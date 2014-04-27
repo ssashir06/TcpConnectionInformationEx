@@ -63,15 +63,15 @@
             this.dataGridViewTextBoxColumn1});
             this.dataGridView1.DataSource = this.viewTcpConnectionInformationExBindingSource;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 90);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 6, 2, 6);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 60);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 17;
             this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(774, 639);
+            this.dataGridView1.Size = new System.Drawing.Size(897, 538);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView1_DataError);
             // 
@@ -122,38 +122,37 @@
             this.panel1.Controls.Add(this.EndPointTextBox);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 6, 2, 6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(774, 90);
+            this.panel1.Size = new System.Drawing.Size(897, 60);
             this.panel1.TabIndex = 1;
             // 
             // ProcessNameTextBox
             // 
-            this.ProcessNameTextBox.Location = new System.Drawing.Point(383, 6);
-            this.ProcessNameTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ProcessNameTextBox.Location = new System.Drawing.Point(332, 4);
             this.ProcessNameTextBox.Name = "ProcessNameTextBox";
-            this.ProcessNameTextBox.Size = new System.Drawing.Size(274, 43);
+            this.ProcessNameTextBox.Size = new System.Drawing.Size(238, 31);
             this.ProcessNameTextBox.TabIndex = 2;
             // 
             // EndPointPortNumericUpDown
             // 
-            this.EndPointPortNumericUpDown.Location = new System.Drawing.Point(240, 6);
-            this.EndPointPortNumericUpDown.Margin = new System.Windows.Forms.Padding(2, 6, 2, 6);
+            this.EndPointPortNumericUpDown.Location = new System.Drawing.Point(208, 4);
+            this.EndPointPortNumericUpDown.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.EndPointPortNumericUpDown.Maximum = new decimal(new int[] {
             65535,
             0,
             0,
             0});
             this.EndPointPortNumericUpDown.Name = "EndPointPortNumericUpDown";
-            this.EndPointPortNumericUpDown.Size = new System.Drawing.Size(137, 43);
+            this.EndPointPortNumericUpDown.Size = new System.Drawing.Size(119, 31);
             this.EndPointPortNumericUpDown.TabIndex = 1;
             // 
             // EndPointTextBox
             // 
-            this.EndPointTextBox.Location = new System.Drawing.Point(2, 6);
-            this.EndPointTextBox.Margin = new System.Windows.Forms.Padding(2, 6, 2, 6);
+            this.EndPointTextBox.Location = new System.Drawing.Point(2, 4);
+            this.EndPointTextBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.EndPointTextBox.Name = "EndPointTextBox";
-            this.EndPointTextBox.Size = new System.Drawing.Size(229, 43);
+            this.EndPointTextBox.Size = new System.Drawing.Size(199, 31);
             this.EndPointTextBox.TabIndex = 0;
             // 
             // timer1
@@ -164,13 +163,12 @@
             // 
             // NetStatForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 36F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(774, 729);
+            this.ClientSize = new System.Drawing.Size(897, 598);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Margin = new System.Windows.Forms.Padding(2, 6, 2, 6);
+            this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Name = "NetStatForm";
             this.Text = "NetStatCS";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.NetStatForm_FormClosing);
