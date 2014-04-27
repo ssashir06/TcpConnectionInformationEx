@@ -1,8 +1,7 @@
 TcpConnectionInformationEx
 ==========================
 
-P/Invoke of GetExtendedTcpTable.
-This project provides an imprementation of TcpConnectionInfomation.
+This project provides an implementation of TcpConnectionInfomation, made by a P/Invoke of GetExtendedTcpTable.
 
 
 Reference
