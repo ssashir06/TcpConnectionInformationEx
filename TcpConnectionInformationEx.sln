@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpConnectionInformationEx", "TcpConnectionInformationEx\TcpConnectionInformationEx.csproj", "{DE8AE49B-675C-422B-A74B-BC1CF3AB233C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStatCS", "NetStatCS\NetStatCS.csproj", "{08686EAB-D424-433B-9AF0-5D0654FEDA90}"
