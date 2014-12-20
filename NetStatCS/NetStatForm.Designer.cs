@@ -188,11 +188,6 @@
         private System.Windows.Forms.NumericUpDown EndPointPortNumericUpDown;
         private System.Windows.Forms.TextBox EndPointTextBox;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn processNameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn localEndPointDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn remoteEndPointDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn stateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn processIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource viewTcpConnectionInformationExBindingSource;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
